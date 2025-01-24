@@ -31,7 +31,13 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://tree-stem.github.io/techdegree-project-3/",
             "github_link": "https://github.com/tree-stem/techdegree-project-3",
-            "image_urls": ""
+            "image_urls": [
+                "./images/landing-page-3.png",
+                "./images/project-3-picture-1.jpeg",
+                "./images/project-3-picture-2.jpeg",
+                "./images/project-3-picture-3.jpeg",
+                "./images/project-3-picture-4.jpeg"
+            ]
         },
         {
             "id": 3,
@@ -40,7 +46,12 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://tree-stem.github.io/techdegree-project-4/",
             "github_link": "https://github.com/tree-stem/techdegree-project-4",
-            "image_urls": ""
+            "image_urls": [
+                "./images/landing-page-4.png",
+                "./images/project-4-picture-1.jpeg",
+                "./images/project-4-picture-2.jpeg",
+                "./images/project-4-picture-3.jpeg"
+            ]
         },
         {
             "id": 4,
@@ -49,7 +60,13 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://tree-stem.github.io/techdegree-project-5/",
             "github_link": "https://github.com/tree-stem/techdegree-project-5",
-            "image_urls": ""
+            "image_urls": [
+                "./images/landing-page-5.png",
+                "./images/project-5-picture-1.jpeg",
+                "./images/project-5-picture-2.jpeg",
+                "./images/project-5-picture-3.jpeg",
+                "./images/project-5-picture-4.jpeg"
+            ]
         }
     ]
 }
