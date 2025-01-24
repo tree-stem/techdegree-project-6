@@ -1,0 +1,55 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "An array of quotes randomly displayed on user clicks.",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://tree-stem.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-1",
+            "image_urls": [
+                "./images/landing-page-1.png",
+                "./images/project-1-picture-1.jpeg"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A database of student infomation displayed with pagination and filters.",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://tree-stem.github.io/techdegree-project-2/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-2",
+            "image_urls": [
+                "./images/landing-page-2.png",
+                "./images/project-2-picture-1.jpeg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An interactive form that updates in real time and uses validation parameters to submit user information.",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://tree-stem.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-3",
+            "image_urls": ""
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "A browser-based word guessing game using JavaScript and Object-Oriented Programming.",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://tree-stem.github.io/techdegree-project-4/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-4",
+            "image_urls": ""
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "A functional employee app that displays data retrived from a public API.",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://tree-stem.github.io/techdegree-project-5/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-5",
+            "image_urls": ""
+        }
+    ]
+}
