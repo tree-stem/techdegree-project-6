@@ -1,15 +1,15 @@
 const express = require('express');
 
-const data = require('./data.json');
-
 var app = express();
+
+const { projects } = require('./data.json');
 
 app.set('view engine', 'pug');
 
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render('index', data.projects);
+    res.render('index');
 });
 
 app.get('/about', (req, res) => {
@@ -17,7 +17,8 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/project/:id', (req, res) => {
-    res.render('project', { data });
+    res.render('project', { projects });
+    const { id } = req.params;
 });
 
 app.listen(3000, () => {
