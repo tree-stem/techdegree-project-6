@@ -18,9 +18,8 @@ app.get('/about', (req, res) => {
 
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
-    const text = projects[id]
-    console.log('Project data:', text);
-    res.render('project', text);
+    const project = projects[id]
+    res.render('project', { project });
 });
 
 app.listen(3000, () => {
