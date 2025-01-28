@@ -16,6 +16,10 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+app.get('/project/about', (req, res) => {
+    res.redirect('/about');
+});
+
 // 404 Route Does Not Exist
 app.get('/project/:id', (req, res, next) => {
     const id = req.params.id;
