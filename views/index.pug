@@ -6,22 +6,17 @@ block content
 
     h1 My Portfolio
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p My Portfolio interactively shows users my (yes, MY) recently completed projects within the Full-stack JavaScript program. It's purpose is to demonstrate the different skills I've obtained and how the problems I've solved along the way have increased in difficulty. This portfolio is a project in of itself and will continue to grow over time as I continue to advance in my studies. The JavaScript learning curve was steep at first, but after sheer determination I am proud to display my hard work over these past months for you to enjoy. A special thank you to my teachers and peers. (Tristan)
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-      
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
+
+      each project in projects
 
         .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name} thumbnail`)
+            h5 #{projects.project_name}
 
