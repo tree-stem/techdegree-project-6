@@ -48,9 +48,10 @@ app.use((err, req, res, next) => {
         res.render('not-found', err);
     } else {
         console.log("global error handler called");
-        const err = new Error("Oops! Something went wrong");
-        err.status = 500;
-        res.status(500);
+        const err = new Error();
+        err.message = err.message || "Oops! Something went wrong";
+        err.status = err.status || 500;
+        res.status(err.status || 500);
         res.locals.error = err;
         res.render('error', err);
     }
