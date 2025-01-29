@@ -45,10 +45,13 @@ app.get('/project/:id', (req, res, next) => {
 // set up a 404 error handler for pages not found
 app.use((req, res) => {
     console.log("404 error handler called");
+
     const err = new Error("Page Not Found");
     err.status = 404;
+
     res.status(404);
     res.locals.error = err;
+
     res.render('not-found', err);
 });
 
@@ -57,14 +60,17 @@ app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.status(404);
         res.locals.error = err
+
         res.render('not-found', err);
     } else {
         console.log("global error handler called");
         const err = new Error();
         err.message = err.message || "Oops! Something went wrong";
         err.status = err.status || 500;
+
         res.status(err.status || 500);
         res.locals.error = err;
+        
         res.render('error', err);
     }
 });
