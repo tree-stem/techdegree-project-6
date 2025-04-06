@@ -4,7 +4,11 @@
             "id": 0,
             "project_name": "A Random Quote Generator",
             "description": "An array of quotes randomly displayed on user clicks.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tree-stem.github.io/techdegree-project-1/",
             "github_link": "https://github.com/tree-stem/techdegree-project-1",
             "landing_page_url": "/images/landing-page-1.png",
@@ -17,7 +21,11 @@
             "id": 1,
             "project_name": "Data Pagination and Filtering",
             "description": "A database of student infomation displayed with pagination and filters.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tree-stem.github.io/techdegree-project-2/",
             "github_link": "https://github.com/tree-stem/techdegree-project-2",
             "landing_page_url": "/images/landing-page-2.png",
@@ -30,7 +38,11 @@
             "id": 2,
             "project_name": "Interactive Form",
             "description": "An interactive form that updates in real time and uses validation parameters to submit user information.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tree-stem.github.io/techdegree-project-3/",
             "github_link": "https://github.com/tree-stem/techdegree-project-3",
             "landing_page_url": "/images/landing-page-3.png",
@@ -46,7 +58,11 @@
             "id": 3,
             "project_name": "OOP Game Show App",
             "description": "A browser-based word guessing game using JavaScript and Object-Oriented Programming.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tree-stem.github.io/techdegree-project-4/",
             "github_link": "https://github.com/tree-stem/techdegree-project-4",
             "landing_page_url": "/images/landing-page-4.png",
@@ -61,7 +77,11 @@
             "id": 4,
             "project_name": "Public API Requests",
             "description": "A functional employee app that displays data retrived from a public API.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tree-stem.github.io/techdegree-project-5/",
             "github_link": "https://github.com/tree-stem/techdegree-project-5",
             "landing_page_url": "/images/landing-page-5.png",
@@ -70,6 +90,114 @@
                 "/images/project-5-picture-2.jpeg",
                 "/images/project-5-picture-3.jpeg",
                 "/images/project-5-picture-4.jpeg"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "A gallery app built with React to fetch and parse data.",
+            "technologies": [
+                "React",
+                "React Router",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://techdegree-react-gallery-app.netlify.app/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-7",
+            "landing_page_url": "/images/landing-page-7.png",
+            "image_urls": [
+                "/images/project-7-picture-1.jpeg",
+                "/images/project-7-picture-2.jpeg",
+                "/images/project-7-picture-3.jpeg"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "SQL Library Manager",
+            "description": "A library app that uses Sequelize to connect to a SQL database and display data in the browser.",
+            "technologies": [
+                "SQLite",
+                "Sequelize",
+                "Express",
+                "Pug",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://railway.com/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-8",
+            "landing_page_url": "/images/landing-page-8.png",
+            "image_urls": [
+                "/images/project-8-picture-1.jpeg",
+                "/images/project-8-picture-2.jpeg",
+                "/images/project-8-picture-3.jpeg",
+                "/images/project-8-picture-4.jpeg",
+                "/images/project-8-picture-5.jpeg",
+                "/images/project-8-picture-6.jpeg",
+                "/images/project-8-picture-7.jpeg"
+            ]
+        },
+        {
+            "id": 7,
+            "project_name": "REST API",
+            "description": "A REST API built with Express that performs CRUD operations to modify data and connects to an SQL database using Sequelize ORM.",
+            "technologies": [
+                "SQLite",
+                "Sequelize",
+                "Express",
+                "Basic Authentication",
+                "Bcrypt",
+                "JavaScript"
+            ],
+            "live_link": "https://github.com/404",
+            "github_link": "https://github.com/tree-stem/techdegree-project-9",
+            "landing_page_url": "/images/landing-page-9.png",
+            "image_urls": [
+                "/images/project-9-picture-1.jpeg",
+                "/images/project-9-picture-2.jpeg",
+                "/images/project-9-picture-3.jpeg",
+                "/images/project-9-picture-4.jpeg",
+                "/images/project-9-picture-5.jpeg",
+                "/images/project-9-picture-6.jpeg",
+                "/images/project-9-picture-7.jpeg",
+                "/images/project-9-picture-8.jpeg"
+            ]
+        },
+        {
+            "id": 8,
+            "project_name": "Full Stack App with React and a REST API",
+            "description": "Full Stack course managing app built with React and a REST API.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "React Router",
+                "Basic Authentication",
+                "Bcrypt",
+                "CORS",
+                "Express",
+                "SQLite",
+                "Sequelize"
+            ],
+            "live_link": "https://client-production-e6fe.up.railway.app/",
+            "github_link": "https://github.com/tree-stem/techdegree-project-10",
+            "landing_page_url": "/images/landing-page-10.png",
+            "image_urls": [
+                "/images/project-10-picture-1.jpeg",
+                "/images/project-10-picture-2.jpeg",
+                "/images/project-10-picture-3.jpeg",
+                "/images/project-10-picture-4.jpeg",
+                "/images/project-10-picture-5.jpeg",
+                "/images/project-10-picture-6.jpeg",
+                "/images/project-10-picture-7.jpeg",
+                "/images/project-10-picture-8.jpeg",
+                "/images/project-10-picture-9.jpeg",
+                "/images/project-10-picture-10.jpeg",
+                "/images/project-10-picture-11.jpeg",
+                "/images/project-10-picture-12.jpeg",
+                "/images/project-10-picture-13.jpeg"
             ]
         }
     ]
